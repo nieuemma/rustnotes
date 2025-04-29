@@ -25,3 +25,7 @@
 - `6`, `5+6`, `{ let x = 3; x + 1 }`
 
 ### Functions with Return Values
+- Functions can return values to the code that calls them
+- Return values aren't named
+- Their type must be declared after an arrow `->`
+- `fn five() -> i32 { 5 }`

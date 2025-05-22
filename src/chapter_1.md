@@ -29,13 +29,13 @@
 - Number literals that can be multiple types allow a type suffix, such as `57u8`
 - Number literals can also use `_` as a visual separator
 
-| Number literals | Example |
-|-----------------|---------|
-| Decimal         | 98_22   |
-| Hex             | 0xff    |
-| Octal           | 0o77    |
+| Number literals | Example    |
+|-----------------|------------|
+| Decimal         | 98_22      |
+| Hex             | 0xff       |
+| Octal           | 0o77       |
 | Binary          | 0b1111_0000|
-| Byte (u8 only)  | b'A'    |
+| Byte (u8 only)  | b'A'       |
 
 - Integer overflow occurs when the value exceeds the maximum or minimum value that can be represented by the integer type
 - If compiling in release mode, integer overflow will wrap around to the minimum value a type can hold
@@ -46,7 +46,7 @@
 | wrapping_*    | wrap in all modes                  |
 | checked_*     | return `none` value                |
 | overflowing_* | return value and boolean           |
-| saturating_*  | saturate at the values min or max |
+| saturating_*  | saturate at the values min or max  |
 
 ### Floating Point Numbers
 - Floating point numbers are numbers with a fractional component
